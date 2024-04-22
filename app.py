@@ -66,5 +66,4 @@ def index():
         return render_template('index.html', tweet=tweet_input, prediction=result)
     return render_template('index.html', tweet=None, prediction=None)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
